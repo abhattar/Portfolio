@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Neutraface';
+	font-weight: normal;
+	src: url('Neutraface/NeutraText-DemiItalicAlt.otf');
+}
+
+@font-face {
+	font-family: 'NeutrafaceLight';
+	font-weight: light;
+	src: url('Neutraface/NeutraText-LightAlt.otf');
+}
+
+
+@font-face {
+	font-family: 'NeutrafaceBold';
+	font-weight: bold;
+	src: url('Neutraface/NeutraText-BoldAlt.otf');
+}

@@ -1,0 +1,88 @@
+
+body {
+  width:100%;
+}
+#body{
+  width:100%;
+  height:100%;
+}
+h1{
+  font-family: 'Helvetica';
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+h2{
+  font-family: 'NeutrafaceBold';
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+p{
+  font-family: 'NeutrafaceLight';
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  width:350px;
+}
+footer{
+	border-top: 1px solid rgb(200,200,200);
+  vertical-align: baseline;
+}
+
+img{
+  width: 25%;
+}
+footer div{
+  display: flex;
+  justify-content:   flex-end;
+}
+
+footer p{
+	font-size: 8pt;
+	color: grey;
+
+}
+
+footer p a{
+	text-decoration: none;
+	color:grey;
+}
+footer p a:hover{
+	text-decoration: underline;
+	color:grey;
+}
+
+
+
+a.animated-button.thar-three {
+	color: #000;
+	cursor: pointer;
+	display: block;
+	position: relative;
+
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+a.animated-button.thar-three:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: nthree;
+}
+a.animated-button.thar-three:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button.thar-three:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #F7CA18;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}

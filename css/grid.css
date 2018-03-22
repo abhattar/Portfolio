@@ -1,0 +1,28 @@
+@media(max-width: 60em){
+
+
+
+
+}
+
+@media(max-width:45rem){
+
+
+
+  footer p a
+  {
+    display:flex-wrap;
+    flex-wrap: center;
+    width:25%;
+    vertical-align: middle;
+    padding-left:20%;
+
+  }
+
+  footer p{
+
+  }
+
+
+
+}
