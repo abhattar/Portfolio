@@ -16,26 +16,11 @@ body {
 .body-content{
   display: flex;
   flex-direction: column;
-  position:absolute;
-  width: 100%;
-
   align-items: center;
-    background-color: white;
-
-
-  height: 60%;
-  overflow-y: scroll;
-  z-index:30;
 }
 
 .content-page{
-  display: flex;
-  flex-direction: column;
-  position:absolute;
-  width: 100%;
-  background-color: white;
-  padding-left: 25%;
-  color: black;
+
 }
 
 .container-content{
@@ -44,20 +29,16 @@ body {
 
 }
 .homebrew{
-  height: 550px;
-  overflow-y: scroll;
-  position: absolute;
-  z-index: 27;
+  display: none;
+  visibility:hidden;
 }
 
 
 
 .duolingo{
-  height: 550px;
-  overflow-y: scroll;
-  position: absolute;
-  z-index: 28;
+  display:none;
   line-height: auto;
+  visibility:hidden;
 }
 .nav-col-2{
 
@@ -130,11 +111,7 @@ p{
 }
 
 footer{
-  position: fixed;
-  flex-direction: column;
-  width: 100%;
-  align-self: flex-end;
-  bottom:0;
+
 }
 footer div{
   display: flex;
